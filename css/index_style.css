@@ -1,0 +1,521 @@
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    overflow: hidden
+}
+#loading_screen
+{
+    background-color: #1abc9c;
+    position: fixed;
+    right: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 11111;
+}
+
+.spinner {
+  margin: 300px auto;
+  width: 50px;
+  height: 40px;
+  text-align: center;
+  font-size: 10px;
+}
+
+.spinner > div {
+  background-color: #fff;
+  height: 100%;
+  width: 6px;
+  display: inline-block;
+  
+  -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
+  animation: sk-stretchdelay 1.2s infinite ease-in-out;
+}
+
+.spinner .rect2 {
+  -webkit-animation-delay: -1.1s;
+  animation-delay: -1.1s;
+}
+
+.spinner .rect3 {
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+
+.spinner .rect4 {
+  -webkit-animation-delay: -0.9s;
+  animation-delay: -0.9s;
+}
+
+.spinner .rect5 {
+  -webkit-animation-delay: -0.8s;
+  animation-delay: -0.8s;
+}
+
+@-webkit-keyframes sk-stretchdelay {
+  0%, 40%, 100% { -webkit-transform: scaleY(0.4) }  
+  20% { -webkit-transform: scaleY(1.0) }
+}
+
+@keyframes sk-stretchdelay {
+  0%, 40%, 100% { 
+    transform: scaleY(0.4);
+    -webkit-transform: scaleY(0.4);
+  }  20% { 
+    transform: scaleY(1.0);
+    -webkit-transform: scaleY(1.0);
+  }
+}
+
+
+#section_home
+{
+    background-image:url(../images/Ass5/cover.jpg);
+    background-size: 100% 100%;
+    
+}
+.back
+{
+    height: 100vh;
+    background-color: rgba(196, 45, 50, 0.68);
+}
+.navbar
+{
+    background-color: #101010;
+    width: 100%;
+    z-index: 1;
+    padding: 0px;
+}
+.navbar-brand
+{
+  padding: 0px;
+  margin: 0px;
+}
+.logo
+{
+    width: 90px;
+    height: 70px;
+    padding: 0px 10px;
+}
+ .navbar-toggler
+{
+    color: #fff !important;
+    margin-right: 20px;
+    background-color: #fff;
+}
+.navbar span
+{
+      color:#fff;
+}
+.navbar ul li 
+{
+   padding: 0px 15px;
+}
+.nav-link
+{
+  color:#fff;
+  
+}
+.nav-link:hover
+{
+    color: #ec3237
+}
+.intro h1
+{
+    font-weight: 700;
+    font-size: 4em;
+    color: #ffffff;
+    text-shadow: 0px 5px 10px #af2424;
+    margin-bottom: 15px;
+    margin-top: 50px
+}
+.intro h3
+{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    padding-bottom: 20px
+}
+.intro a
+{
+    background-color: transparent;
+    border: solid 2px #fff;
+    color: #fff;
+}
+.intro a:hover
+{
+ color:#ff0357
+}
+
+
+
+
+
+#section_about h2
+{
+    font-size: 2.5em;
+    font-weight: 700;
+}
+#section_about p
+{
+    color: #777;
+    font-weight: 300;
+    font-size: 16px
+}
+
+#section_about .hh
+{
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+#section_about h4
+{
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+#section_about p
+{
+    font-size: 16px;
+    font-weight: 300;
+    color: #777;
+    padding: 10px 0px
+}
+#section_about .social
+{
+  
+    
+  
+}
+#section_about .social ul li
+{
+    list-style-type: none;
+    float: left;
+    
+}
+#section_about .social ul li a
+{     
+}
+#section_about .social ul li a i
+{
+    border: solid 1px #777;
+    color: #777;
+    margin: 5px;
+    padding: 5px;
+    
+}
+
+#section_about .social ul li:hover i
+{
+    color: #fff;
+    background-color:rgb(236, 50, 55);
+}
+#section_about .info p
+{
+    font-size: 16px;
+    font-weight: 300;
+    color: #777;
+}
+.prog span
+{
+    color: #777
+}
+
+
+#section_work
+{
+    background-color: #f5f5f5
+}
+#section_work h2
+{
+    font-size: 2.5em;
+    font-weight: 700;
+}
+#section_work p
+{
+    font-weight: 300;
+    color: #777777;
+    font-size: 16px;
+}
+#section_work .info
+{
+    background-color: #fff;
+        border-radius: 3px;
+    border: 1px solid #eeeeee;
+    margin-bottom: 30px;
+    padding: 20px;
+    cursor: pointer
+}
+#section_work .info i
+{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 15px;
+    background-color: #eeeeee;
+    color: #777777;
+    text-align: center;
+    padding-top: 10px
+}
+#section_work .info h4
+{
+    font-size: 18px;
+    font-weight: 600;
+}
+#section_work .info p
+{
+    font-size: 18px;
+    font-weight: 300;
+    color: #777777;
+}
+#section_work .info:hover i
+{
+    color:#fff;
+    background-color: red;
+}
+#section_work .info:hover h4
+{
+    color: red
+}
+#section_work .num
+{
+    background-image: url(../images/Ass5/project-counter.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    padding: 30px 0px;
+    
+}
+#section_work .num .infor
+{
+   
+  
+    border: 1px solid rgba(255,255,255,0.1);
+    padding: 15px 0px;
+   
+    
+}
+#section_work .num .infor i
+{
+    color: #ec3237;
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+}
+#section_work .num .infor span
+{
+    font-size: 3em;
+    color: #ffffff;
+    font-weight: 600;
+}
+#section_work .num .infor h4
+{
+    font-weight: 600;
+    color: #ec3237;
+}
+
+
+
+
+#section_portfolio
+{
+    background-color: #f5f5f5;
+}
+#section_portfolio .port h2
+{
+    font-size: 2.5em;
+    font-weight: 700;
+}
+#section_portfolio .port p
+{
+   font-weight: 300;
+   color: #777777;
+}
+#section_portfolio .portnav .ph
+{
+    padding: 0px 15px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    background-color: #ffffff;
+    border: 1px solid #eeeeee;
+    position: relative;
+}
+#section_portfolio .portnav .ph a
+{
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    background-color: #000;
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    transform: translate(-50%,-50%)
+}
+#section_portfolio .portnav .ph i
+{
+    color: #fff;
+    padding-top: 10px
+}
+#section_portfolio .portnav .ph h4
+{
+    margin-bottom: 5px;
+    font-weight: 600;
+    font-size: 18px;
+   
+}
+#section_portfolio .portnav .ph p
+{
+    font-size: 16px;
+    font-weight: 300;
+    color: #777777;
+}
+#section_portfolio .pho:hover a
+{
+    background-color: red
+}
+
+#section_portfolio .portnav ul li
+{
+  padding: 0px 5px;  
+}
+#section_portfolio .portnav ul li a
+{
+    border: solid 1px #ddd;
+    color: #000;
+    background-color:transparent
+}
+
+#section_portfolio .portnav ul li a:hover
+{
+    border: solid 1px red;
+}
+#section_portfolio .portnav ul li a:active
+{
+    color: red
+}
+#section_portfolio .person
+{
+    background-image: url(../images/Ass5/client-testimonial.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.person .per1 img
+{
+    border: solid 7px #ec3237;
+}
+.person .per1 p
+{
+    color: #fff;
+    font-weight: 300;
+}
+.person .per1 h3
+{
+        color: #ec3237;
+    font-weight: 600;
+}
+.person .per1 span
+{
+    color: #fff;
+}
+
+
+
+
+#section_hireme .hir h2
+{
+    font-size: 2.5em;
+    font-weight: 700;
+}
+#section_hireme .hir p
+{
+   font-weight: 300;
+   color: #777777;
+}
+#section_hireme .inform h4
+{
+    font-weight: 700;
+       padding-bottom: 15px;
+}
+#section_hireme .inform p
+{
+    font-weight: 300;
+   color: #777777;
+}
+#section_hireme .inform i
+{
+    padding: 10px
+}
+#section_hireme .inform i a,span
+{
+    padding-left: 10px;
+        color: #777777;
+}
+#section_hireme .inform i a
+{
+    text-decoration: none;
+    color: #BF360C;
+}
+#section_hireme .social
+{
+  
+}
+#section_hireme .social ul li
+{
+    list-style-type: none;
+    float: left;
+    
+}
+#section_hireme .social ul li a
+{     
+}
+#section_hireme .social ul li a i
+{
+    border: solid 1px #777;
+    color: #777;
+    margin: 5px;
+    padding: 5px;
+    
+}
+
+#section_hireme .social ul li:hover i
+{
+    color: #fff;
+    background-color:rgb(236, 50, 55);
+}
+#section_hireme .perinf input
+{
+    width: 95%;
+    padding: 10px;
+    border: solid 1px #777;
+}
+#section_hireme .perinf textarea
+{
+    width: 95%;
+    height: 20%
+}
+#section_hireme .foot
+{
+    margin-top: 20px;
+    margin-bottom: 20px
+}
+#section_hireme .foot p
+{
+    color: #777;
+}
+#section_hireme .foot a
+{
+    text-decoration: none;
+    color: #BF360C
+}
+
+.btnup
+{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none
+}
